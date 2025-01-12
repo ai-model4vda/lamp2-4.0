@@ -74,8 +74,8 @@ function App() {
 
       try {
         const url = isRagEnabled
-          ? "http://127.0.0.1:5000/getresult"
-          : "http://127.0.0.1:5000/getresultwithoutrag";
+          ? "https://lamp2backend-9ini.onrender.com/getresult"
+          : "https://lamp2backend-9ini.onrender.com/getresultwithoutrag";
         const requestBody = {
           request: {
             "current message": finalInput,
@@ -115,8 +115,8 @@ function App() {
 
       try {
         const url = isRagEnabled
-          ? "http://127.0.0.1:5000/getresult"
-          : "http://127.0.0.1:5000/getresultwithoutrag";
+          ? "https://lamp2backend-9ini.onrender.com/getresult"
+          : "https://lamp2backend-9ini.onrender.com/getresultwithoutrag";
         const requestBody = {
           request: {
             "current message": input,
